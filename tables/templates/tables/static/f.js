@@ -37,14 +37,14 @@
         };
     };
     function f(e, field) {
-        console.log(field);
         var model, object, url, value, dict = {};
         model = e.parentNode.parentNode.className;
         object = $(e).siblings('.AutoField').text();
         url = '/' + model + '/' + object;
         replr(e, field);
-        e.onclick = "";
+        $(e).removeAttr('onclick');
         $(e.firstElementChild.firstElementChild).focus();
+        $(e.firstElementChild.firstElementChild).click();
         $(e).keypress(function(event){
             if (event.keyCode==13) {
                 $(e).html(
@@ -55,5 +55,11 @@
                 e.setAttribute('onclick', "f(this, "+"'"+field+"'"+")");
             }
         });
+        $(e).focusout(function(){
+            $(e).html(
+                      this.firstElementChild.firstElementChild.value
+                );
+            e.setAttribute('onclick', "f(this, "+"'"+field+"'"+")");
+        })
 
     }

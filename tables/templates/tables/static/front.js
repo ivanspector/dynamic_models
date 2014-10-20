@@ -9,12 +9,12 @@ $(document).ready(function(){
                             _.template(
                                             '<thead>' +
                                                 '<tr>' +
-                                                    '<% _.forEach(verbose_names, function(name) { %><td><%- name %></td><% }); %>' +
+                                                    '<% _.forEach(verbose_names, function(name) { %><th width=100><%- name %></td><% }); %>' +
                                                 '</tr>' +
                                             '</thead>' +
                                             '<tbody class=<%- model %>>' +
                                                 '<% _.forEach(values, function(value) { %><tr>' +
-                                                    '<% _.forEach(names, function(name) { %><td onclick="f(this, '+"'<%- name %>'"+')" class=<%- types[name] %>><%- value[name] %></td><% }); %></tr><% }); %>' +
+                                                    '<% _.forEach(names, function(name) { %><td width=100 onclick="f(this, '+"'<%- name %>'"+')" class=<%- types[name] %>><%- value[name] %></td><% }); %></tr><% }); %>' +
                                             '</tbody>' , response)
                     );
                     $('.form_container').html(
@@ -24,7 +24,7 @@ $(document).ready(function(){
                                         '<legend>Новая Запись</legend>' +
                                     csrf +
                                     '<% _.forEach(names.slice(1), function(name) { %><div><%- verbose_names[names.indexOf(name)] %>: </div><p id=<%- name %> class=<%- types[name] %>></p><% }); %>' +
-                                    '<input type="submit">' +
+                                    '<input type="submit"></input>' +
                                     '</fieldset>' +
                                 '</form>', response
                             )
