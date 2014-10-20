@@ -9,12 +9,12 @@ $(document).ready(function(){
                             _.template(
                                             '<thead>' +
                                                 '<tr>' +
-                                                    '<% _.forEach(verbose_names, function(name) { %><th width=100><%- name %></td><% }); %>' +
+                                                    '<% _.forEach(verbose_names, function(name) { %><th><%- name %></td><% }); %>' +
                                                 '</tr>' +
                                             '</thead>' +
                                             '<tbody class=<%- model %>>' +
                                                 '<% _.forEach(values, function(value) { %><tr>' +
-                                                    '<% _.forEach(names, function(name) { %><td width=100 onclick="f(this, '+"'<%- name %>'"+')" class=<%- types[name] %>><%- value[name] %></td><% }); %></tr><% }); %>' +
+                                                    '<% _.forEach(names, function(name) { %><td onclick="f(this, '+"'<%- name %>'"+')" class=<%- types[name] %>><%- value[name] %></td><% }); %></tr><% }); %>' +
                                             '</tbody>' , response)
                     );
                     $('.form_container').html(

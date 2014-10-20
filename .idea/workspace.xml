@@ -55,7 +55,7 @@
       <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tables/templates/tables/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="32" selection-start="1233" selection-end="1233" vertical-scroll-proportion="-19.375">
+            <state line="32" column="23" selection-start="1224" selection-end="1224" vertical-scroll-proportion="-19.375">
               <folding />
             </state>
           </provider>
@@ -64,7 +64,7 @@
       <file leaf-file-name="front.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tables/templates/tables/static/front.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="66" selection-start="1820" selection-end="1820" vertical-scroll-proportion="0.5251397">
+            <state line="16" column="95" selection-start="984" selection-end="984" vertical-scroll-proportion="0.44134077">
               <folding />
             </state>
           </provider>
@@ -129,8 +129,8 @@
         <option value="$PROJECT_DIR$/testsite/settings.py" />
         <option value="$PROJECT_DIR$/tables/templates/tables/models.html" />
         <option value="$PROJECT_DIR$/db.sqlite3" />
-        <option value="$PROJECT_DIR$/tables/templates/tables/base.html" />
         <option value="$PROJECT_DIR$/tables/templates/tables/static/f.js" />
+        <option value="$PROJECT_DIR$/tables/templates/tables/base.html" />
         <option value="$PROJECT_DIR$/tables/templates/tables/static/front.js" />
       </list>
     </option>
@@ -691,13 +691,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tables/templates/tables/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="32" selection-start="1233" selection-end="1233" vertical-scroll-proportion="-19.375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tables/templates/tables/static/f.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="57" column="11" selection-start="2443" selection-end="2443" vertical-scroll-proportion="-32.884617">
@@ -705,9 +698,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tables/templates/tables/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="23" selection-start="1224" selection-end="1224" vertical-scroll-proportion="-19.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tables/templates/tables/static/front.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="66" selection-start="1820" selection-end="1820" vertical-scroll-proportion="0.5251397">
+        <state line="16" column="95" selection-start="984" selection-end="984" vertical-scroll-proportion="0.44134077">
           <folding />
         </state>
       </provider>
