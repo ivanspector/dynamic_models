@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tables</title>
+    <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/css/bootstrap-combined.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen"
+     href="http://tarruda.github.com/bootstrap-datetimepicker/assets/css/bootstrap-datetimepicker.min.css">
+  </head>
+  <body>
+    <script type="text/javascript"
+     src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js">
+    </script>
+    <script type="text/javascript"
+     src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/js/bootstrap.min.js">
+    </script>
+    <script type="text/javascript"
+     src="http://tarruda.github.com/bootstrap-datetimepicker/assets/js/bootstrap-datetimepicker.min.js">
+    </script>
+    <script type="text/javascript"
+      src="https://raw.githubusercontent.com/lodash/lodash/2.4.1/dist/lodash.js">
+    </script>
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="span2">
+          <!--Sidebar content-->
+         <div class=well>
+        {% block models %}
+        {% endblock %}
+         </div>
+        </div>
+        <div class="span10">
+            <div>
+                <table class='records' border=2></table>
+                <div class="form_container"></div>
+                <script type="text/javascript" class="input_injector"></script>
+                <script type="text/javascript" class="datetimepicker"></script>
+{#              <div id="datetimepicker4" >#}
+{#                <input data-format="yyyy-MM-dd" type="text" class="add-on"></input>#}
+{#              </div>#}
+            </div>
+
+          <!--Body content-->
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

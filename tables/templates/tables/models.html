@@ -1,0 +1,20 @@
+{% extends 'tables/base.html' %}
+{% load static from staticfiles %}
+{% block models %}
+            <dl class="tabs">
+              {% for model_name, verbose_name in models.items %}
+                <dd>
+                  <a class='link' href="{% url 'get_tables' model_name %}">{{ verbose_name }}</a>
+                </dd>
+              {% endfor %}
+            </dl>
+    <script type='text/javascript'>
+    var csrf = "{% csrf_token %}"
+    </script>
+    <script type='text/javascript' src='{% static "front.js" %}'>
+
+    </script>
+    <script type='text/javascript' src='{% static "f.js" %}'>
+
+    </script>
+{% endblock %}

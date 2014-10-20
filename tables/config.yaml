@@ -1,0 +1,20 @@
+users:
+    title: Пользователи
+    fields:
+        - {id: name, title: Имя, type: char}
+        - {id: paycheck, title: Зарплата, type: int}
+        - {id: date_joined, title: Дата поступления на работу, type: date}
+
+
+rooms:
+    title: Комнаты
+    fields:
+        - {id: department, title: Отдел, type: char}
+        - {id: spots, title: Вместимость, type: int}
+
+bicycles:
+    title: Велосипеды
+    fields:
+        - {id: frame, title: Рама, type: char}
+        - {id: fork, title: Вилка, type: char}
+
