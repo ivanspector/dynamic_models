@@ -9,7 +9,7 @@
     <file path="/config.yaml" changelist="498b27b9-0814-45d1-bda0-f01cb1ded49a" time="1412892037020" ignored="false" />
     <file path="/admin.py" changelist="498b27b9-0814-45d1-bda0-f01cb1ded49a" time="1413232410164" ignored="false" />
     <file path="/urls.py" changelist="498b27b9-0814-45d1-bda0-f01cb1ded49a" time="1413572716259" ignored="false" />
-    <file path="/base.html" changelist="498b27b9-0814-45d1-bda0-f01cb1ded49a" time="1413757493153" ignored="false" />
+    <file path="/base.html" changelist="498b27b9-0814-45d1-bda0-f01cb1ded49a" time="1413833072761" ignored="false" />
     <file path="/views.py" changelist="498b27b9-0814-45d1-bda0-f01cb1ded49a" time="1413827735344" ignored="false" />
     <file path="/models.html" changelist="498b27b9-0814-45d1-bda0-f01cb1ded49a" time="1413829324334" ignored="false" />
     <file path="/fragment.py" changelist="498b27b9-0814-45d1-bda0-f01cb1ded49a" time="1413756932144" ignored="false" />
@@ -51,10 +51,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="front.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="front.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tables/templates/tables/static/front.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="7" selection-start="3007" selection-end="3007" vertical-scroll-proportion="1.2307693">
+            <state line="50" column="7" selection-start="3007" selection-end="3007" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -96,10 +96,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="base.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tables/templates/tables/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="47" selection-start="1237" selection-end="1237" vertical-scroll-proportion="-10.5">
+            <state line="31" column="27" selection-start="1199" selection-end="1199" vertical-scroll-proportion="0.8423913">
               <folding />
             </state>
           </provider>
@@ -123,7 +123,6 @@
         <option value="$PROJECT_DIR$/tables/models.py" />
         <option value="$PROJECT_DIR$/tables/urls.py" />
         <option value="/fragment.py" />
-        <option value="$PROJECT_DIR$/tables/templates/tables/base.html" />
         <option value="$PROJECT_DIR$/tables/views.py" />
         <option value="$PROJECT_DIR$/testsite/static/front.js" />
         <option value="$PROJECT_DIR$/testsite/settings.py" />
@@ -131,6 +130,7 @@
         <option value="$PROJECT_DIR$/tables/templates/tables/static/front.js" />
         <option value="$PROJECT_DIR$/tables/templates/tables/static/f.js" />
         <option value="$PROJECT_DIR$/db.sqlite3" />
+        <option value="$PROJECT_DIR$/tables/templates/tables/base.html" />
       </list>
     </option>
   </component>
@@ -515,17 +515,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1920" height="1054" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2524013" sideWeight="0.6702356" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35331905" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2524013" sideWeight="0.64668095" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35331905" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32976446" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32976446" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -648,13 +648,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tables/templates/tables/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="47" selection-start="1237" selection-end="1237" vertical-scroll-proportion="-10.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tables/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -706,7 +699,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tables/templates/tables/static/front.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="7" selection-start="3007" selection-end="3007" vertical-scroll-proportion="1.2307693">
+        <state line="50" column="7" selection-start="3007" selection-end="3007" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tables/templates/tables/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="27" selection-start="1199" selection-end="1199" vertical-scroll-proportion="0.8423913">
           <folding />
         </state>
       </provider>
