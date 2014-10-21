@@ -35,15 +35,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tables/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="96" selection-start="1731" selection-end="1731" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="models.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tables/templates/tables/models.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -89,10 +80,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="requirements.txt" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="wsgi.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/testsite/wsgi.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="0" selection-start="427" selection-end="427" vertical-scroll-proportion="0.4355717">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Procfile" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Procfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="46" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="requirements.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="6" selection-start="18" selection-end="18" vertical-scroll-proportion="0.026041666">
+            <state line="8" column="14" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -128,8 +137,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/tables/settings.py" />
-        <option value="$PROJECT_DIR$/tables/admin.py" />
         <option value="$PROJECT_DIR$/testsite/urls.py" />
         <option value="$PROJECT_DIR$/tables/templates/tables/bootstrap/css/bootstrap-datetimepicker.min.css" />
         <option value="$PROJECT_DIR$/tables/models.py" />
@@ -143,6 +150,8 @@
         <option value="$PROJECT_DIR$/tables/templates/tables/static/f.js" />
         <option value="$PROJECT_DIR$/tables/templates/tables/static/front.js" />
         <option value="$PROJECT_DIR$/tables/templates/tables/base.html" />
+        <option value="$PROJECT_DIR$/testsite/wsgi.py" />
+        <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/requirements.txt" />
       </list>
     </option>
@@ -594,13 +603,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/threading.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="762" column="0" selection-start="27028" selection-end="27028" vertical-scroll-proportion="0.33333334">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/SocketServer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="593" column="0" selection-start="19209" selection-end="19209" vertical-scroll-proportion="0.33333334">
@@ -678,13 +680,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testsite/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="52" selection-start="2192" selection-end="2192" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testsite/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -694,9 +689,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/testsite/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="52" selection-start="2192" selection-end="2192" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="46" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="6" selection-start="18" selection-end="18" vertical-scroll-proportion="0.026041666">
+        <state line="8" column="14" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testsite/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="427" selection-end="427" vertical-scroll-proportion="0.4355717">
           <folding />
         </state>
       </provider>
