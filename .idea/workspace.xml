@@ -63,10 +63,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="f.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="f.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tables/templates/tables/static/f.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="37" selection-start="2441" selection-end="2441" vertical-scroll-proportion="0.6875">
+            <state line="57" column="37" selection-start="2441" selection-end="2441" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -81,10 +81,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wsgi.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="wsgi.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testsite/wsgi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="14" selection-start="445" selection-end="445" vertical-scroll-proportion="-9.6">
+            <state line="13" column="0" selection-start="354" selection-end="354" vertical-scroll-proportion="0.35390198">
               <folding />
             </state>
           </provider>
@@ -152,8 +152,8 @@
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/tables/templates/tables/base.html" />
-        <option value="$PROJECT_DIR$/testsite/wsgi.py" />
         <option value="$PROJECT_DIR$/tables/templates/tables/static/f.js" />
+        <option value="$PROJECT_DIR$/testsite/wsgi.py" />
       </list>
     </option>
   </component>
@@ -704,16 +704,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testsite/wsgi.py">
+    <entry file="file://$PROJECT_DIR$/tables/templates/tables/static/f.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="14" selection-start="445" selection-end="445" vertical-scroll-proportion="-9.6">
+        <state line="57" column="37" selection-start="2441" selection-end="2441" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tables/templates/tables/static/f.js">
+    <entry file="file://$PROJECT_DIR$/testsite/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="37" selection-start="2441" selection-end="2441" vertical-scroll-proportion="0.6875">
+        <state line="13" column="0" selection-start="354" selection-end="354" vertical-scroll-proportion="0.35390198">
           <folding />
         </state>
       </provider>
