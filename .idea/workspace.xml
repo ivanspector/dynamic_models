@@ -14,7 +14,7 @@
     <file path="/models.html" changelist="498b27b9-0814-45d1-bda0-f01cb1ded49a" time="1413829324334" ignored="false" />
     <file path="/fragment.py" changelist="498b27b9-0814-45d1-bda0-f01cb1ded49a" time="1413756932144" ignored="false" />
     <file path="/front.js" changelist="498b27b9-0814-45d1-bda0-f01cb1ded49a" time="1413835912174" ignored="false" />
-    <file path="/f.js" changelist="498b27b9-0814-45d1-bda0-f01cb1ded49a" time="1414010270471" ignored="false" />
+    <file path="/f.js" changelist="498b27b9-0814-45d1-bda0-f01cb1ded49a" time="1414011031982" ignored="false" />
     <file path="/requirements.txt" changelist="498b27b9-0814-45d1-bda0-f01cb1ded49a" time="1413884937459" ignored="false" />
     <file path="/Procfile" changelist="498b27b9-0814-45d1-bda0-f01cb1ded49a" time="1413915494098" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -63,10 +63,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="f.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="f.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tables/templates/tables/static/f.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="20" selection-start="2446" selection-end="2446" vertical-scroll-proportion="0.0">
+            <state line="53" column="40" selection-start="2383" selection-end="2383" vertical-scroll-proportion="0.6875">
               <folding />
             </state>
           </provider>
@@ -81,10 +81,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wsgi.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="wsgi.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testsite/wsgi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="354" selection-end="354" vertical-scroll-proportion="0.35390198">
+            <state line="13" column="0" selection-start="354" selection-end="354" vertical-scroll-proportion="-7.8">
               <folding />
             </state>
           </provider>
@@ -152,8 +152,8 @@
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/tables/templates/tables/base.html" />
-        <option value="$PROJECT_DIR$/tables/templates/tables/static/f.js" />
         <option value="$PROJECT_DIR$/testsite/wsgi.py" />
+        <option value="$PROJECT_DIR$/tables/templates/tables/static/f.js" />
       </list>
     </option>
   </component>
@@ -520,7 +520,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1920" height="1054" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -690,20 +690,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tables/templates/tables/static/front.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="9" selection-start="2965" selection-end="3007" vertical-scroll-proportion="-17.307692">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tables/templates/tables/static/f.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="20" selection-start="2446" selection-end="2446" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testsite/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="85" column="52" selection-start="2192" selection-end="2192" vertical-scroll-proportion="-15.44">
@@ -713,7 +699,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testsite/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="354" selection-end="354" vertical-scroll-proportion="0.35390198">
+        <state line="13" column="0" selection-start="354" selection-end="354" vertical-scroll-proportion="-7.8">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tables/templates/tables/static/front.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="9" selection-start="2965" selection-end="3007" vertical-scroll-proportion="-17.307692">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tables/templates/tables/static/f.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="40" selection-start="2383" selection-end="2383" vertical-scroll-proportion="0.6875">
           <folding />
         </state>
       </provider>

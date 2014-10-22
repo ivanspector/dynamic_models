@@ -51,6 +51,7 @@
                 $.post(url, dict).done(function(){
                     $(e).focusout()
                 }).fail(function(data){
+                        $(e).focusout();
                         alert('wrong data');
                         $(e).click();
                     });
