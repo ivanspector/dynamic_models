@@ -45,13 +45,15 @@
         $(e).removeAttr('onclick');
         $(e.firstElementChild.firstElementChild).focus();
         $(e.firstElementChild.firstElementChild).click();
-        $(e).keypress(function(event){
+        $(e.firstElementChild.firstElementChild).keypress(function(event){
             if (event.keyCode==13) {
-                $(e).html(
-                      this.firstElementChild.firstElementChild.value
-                );
-                dict[field] = $(this).text();
-                $.post(url, dict)
+                dict[field] = this.value;
+                $.post(url, dict).done(function(){
+                    $(e).focusout()
+                }).fail(function(data){
+                        alert('wrong data');
+                        $(e).click();
+                    });
                 e.setAttribute('onclick', "f(this, "+"'"+field+"'"+")");
             }
         });
