@@ -81,16 +81,27 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="wsgi.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testsite/wsgi.py">
           <provider selected="true" editor-type-id="text-editor">
             <state line="12" column="49" selection-start="353" selection-end="353" vertical-scroll-proportion="0.32667875">
+=======
+      <file leaf-file-name="wsgi.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testsite/wsgi.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="0" selection-start="427" selection-end="427" vertical-scroll-proportion="-9.6">
+>>>>>>> a91070c210a8c2c64bad7ef0e6b5878435bac888
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="Procfile" pinned="false" current="false" current-in-tab="false">
+=======
+      <file leaf-file-name="Procfile" pinned="false" current="true" current-in-tab="true">
+>>>>>>> a91070c210a8c2c64bad7ef0e6b5878435bac888
         <entry file="file://$PROJECT_DIR$/Procfile">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="22" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0">
@@ -150,10 +161,17 @@
         <option value="$PROJECT_DIR$/db.sqlite3" />
         <option value="$PROJECT_DIR$/tables/templates/tables/static/f.js" />
         <option value="$PROJECT_DIR$/tables/templates/tables/static/front.js" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/tables/templates/tables/base.html" />
         <option value="$PROJECT_DIR$/testsite/wsgi.py" />
+=======
+        <option value="$PROJECT_DIR$/tables/templates/tables/base.html" />
+        <option value="$PROJECT_DIR$/testsite/wsgi.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/Procfile" />
+>>>>>>> a91070c210a8c2c64bad7ef0e6b5878435bac888
       </list>
     </option>
   </component>
@@ -690,9 +708,15 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="14" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0">
+=======
+    <entry file="file://$PROJECT_DIR$/testsite/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="427" selection-end="427" vertical-scroll-proportion="-9.6">
+>>>>>>> a91070c210a8c2c64bad7ef0e6b5878435bac888
           <folding />
         </state>
       </provider>
@@ -713,7 +737,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testsite/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="12" column="49" selection-start="353" selection-end="353" vertical-scroll-proportion="0.32667875">
+=======
+        <state line="8" column="14" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="22" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0">
+>>>>>>> a91070c210a8c2c64bad7ef0e6b5878435bac888
           <folding />
         </state>
       </provider>
