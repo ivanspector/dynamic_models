@@ -37,30 +37,31 @@
         };
     };
     function f(e, field) {
-        var model, object, url, value, dict = {};
+        var input, model, object, url, value, dict = {};
         model = e.parentNode.parentNode.className;
         object = $(e).siblings('.AutoField').text();
         url = '/' + model + '/' + object;
         replr(e, field);
         $(e).removeAttr('onclick');
-        $(e.firstElementChild.firstElementChild).focus();
-        $(e.firstElementChild.firstElementChild).click();
-        $(e.firstElementChild.firstElementChild).keypress(function(event){
+        input = e.firstElementChild.firstElementChild;
+        $(input).focus();
+        $(input).click();
+        $(input).keypress(function(event){
             if (event.keyCode==13) {
                 dict[field] = this.value;
+
                 $.post(url, dict).done(function(){
-                    $(e).focusout()
+                    $(input).focusout()
                 }).fail(function(data){
-                        $(e).focusout();
+                        $(input).focusout();
                         alert('wrong data');
                         $(e).click();
                     });
-                e.setAttribute('onclick', "f(this, "+"'"+field+"'"+")");
             }
         });
-        $(e).focusout(function(){
+        $(input).focusout(function(){
             $(e).html(
-                      this.firstElementChild.firstElementChild.value
+                      this.value
                 );
             e.setAttribute('onclick', "f(this, "+"'"+field+"'"+")");
         })
